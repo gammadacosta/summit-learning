@@ -1,0 +1,29 @@
+# robots.txt for Summit Learning Solutions (GitHub Pages)
+
+# Universal rules
+User-agent: *
+Disallow: /admin/
+Disallow: /login/
+Disallow: /drafts/
+Disallow: /private/
+Allow: /
+
+# Explicit AI agents
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+# Search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Sitemap
+Sitemap: https://gammadacosta.github.io/summit-learning/sitemap.xml
